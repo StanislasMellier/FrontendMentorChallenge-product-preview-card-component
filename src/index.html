@@ -4,10 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
 		<title>Frontend Mentor | Product preview card component</title>
-		<link href="/dist/output.css" rel="stylesheet" />
+		<link href="output.css" rel="stylesheet" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -21,11 +21,8 @@
 		>
 			<div class="md:h-full md:w-1/2">
 				<picture>
-					<source
-						media="(min-width:376px)"
-						srcset="../images/image-product-desktop.jpg"
-					/>
-					<img class="" src="../images/image-product-mobile.jpg" />
+					<source media="(min-width:376px)" srcset="./images/image-product-desktop.jpg" />
+					<img class="" src="./images/image-product-mobile.jpg" />
 				</picture>
 			</div>
 			<div class="md:w-1/2 md:p-8 p-6 flex flex-col">
@@ -46,7 +43,7 @@
 				<button
 					class="bg-Dark-cyan flex text-white items-center justify-center rounded-lg p-3"
 				>
-					<img src="../images/icon-cart.svg" alt="" class="mr-2" />
+					<img src="./images/icon-cart.svg" alt="" class="mr-2" />
 					Add to Cart
 				</button>
 			</div>
